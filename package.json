@@ -1,9 +1,10 @@
 {
-  "name": "yjs-signaling-free",
+  "name": "yjs-websocket-server",
   "scripts": {
-    "start": "node ./node_modules/y-webrtc/bin/server.js"
+    "start": "node ./node_modules/y-websocket/bin/server.js"
   },
   "dependencies": {
-    "y-webrtc": "^10.3.0"
+    "y-websocket": "1.5.0",
+    "yjs": "13.6.33"
   }
 }
